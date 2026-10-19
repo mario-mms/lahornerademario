@@ -1,0 +1,10 @@
+IMÁGENES
+========
+Los archivos SVG incluidos son marcadores de posición visuales, no fotografías reales del negocio.
+Sustitúyelos por imágenes propias/autorizadas manteniendo los nombres, o actualiza las rutas en HTML/CSS.
+
+Imágenes principales: hero-pasteleria.svg, pasteleria.svg, panaderia.svg, cafeteria.svg,
+tarta-especial.svg, nosotros.svg y visitanos.svg.
+Catálogo: productos/tartas.svg, pasteles.svg, bolleria.svg, pastas.svg y especialidades.svg.
+
+Para usar fotos reales puedes convertirlas a JPG o WebP. Es recomendable optimizarlas para que la web cargue rápido.
