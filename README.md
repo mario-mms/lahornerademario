@@ -47,7 +47,7 @@ Esta versión es informativa y estática: no incluye todavía reservas, inventar
 La página `pages/pasteleria.html` incluye 12 tarjetas de productos listas para personalizar, además de la tarjeta de contacto. Cada tarjeta tiene su propia imagen provisional. Puedes cambiar títulos, descripciones y fotos sin rehacer el diseño.
 
 ### Cómo poner una foto real
-1. Copia la foto a `assets/images/productos/` (por ejemplo, `tarta-queso-01.jpg`).
+1. Copia la foto a `assets/images/pasteleria/` (por ejemplo, `tarta-queso-01.jpg`).
 2. Abre `pages/pasteleria.html` y busca el nombre de la tarjeta (por ejemplo `Tartas`).
 3. En la etiqueta `<img>` de esa tarjeta, cambia la ruta actual por `../assets/images/productos/tarta-queso-01.jpg`.
 4. Cambia también el texto `alt` para describir la foto (por ejemplo `Tarta de queso artesanal`).
@@ -65,6 +65,7 @@ Consejo: conserva siempre una copia de las imágenes originales y usa fotos prop
 
 Las páginas `pages/panaderia.html` y `pages/cafeteria.html` tienen seis tarjetas de ejemplo cada una, con imágenes SVG provisionales que mantienen la paleta granate, crema y dorado. No son fotos reales ni afirman que todos esos productos estén disponibles: cambia los títulos y descripciones para que coincidan con la oferta del negocio.
 
+- Pastelería: guarda fotos en `assets/images/pasteleria/`.
 - Panadería: guarda fotos en `assets/images/panaderia/`.
 - Cafetería: guarda fotos en `assets/images/cafeteria/`.
 
