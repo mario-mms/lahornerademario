@@ -1,0 +1,5 @@
+FOTOS DE PRODUCTOS — LA HORNERA DE MARIO
+
+Esta carpeta reúne notas para organizar las fotos que vayas consiguiendo. Puedes guardar aquí tus originales, pero la web no las mostrará automáticamente: hay que actualizar la ruta de la imagen en pages/pasteleria.html.
+
+Recomendación: JPG o WebP, lado largo de 1200–1800 px, buena luz natural, fondo limpio y sin filtros fuertes. Nombra los archivos con el nombre del producto, por ejemplo tarta-queso-01.jpg.

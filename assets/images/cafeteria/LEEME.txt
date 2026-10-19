@@ -1,0 +1,9 @@
+FOTOS DE CAFETERIA
+
+Cada SVG de esta carpeta es una imagen provisional. Para añadir una foto real:
+1. Copia la foto a esta carpeta, por ejemplo mi-foto.jpg.
+2. Abre pages/cafeteria.html.
+3. Busca la tarjeta correspondiente y cambia el src de su etiqueta img por ../assets/images/cafeteria/mi-foto.jpg
+4. Actualiza el atributo alt con una descripción real.
+
+No hace falta tocar el CSS. Puedes conservar los nombres de las tarjetas o cambiar sus títulos y descripciones.

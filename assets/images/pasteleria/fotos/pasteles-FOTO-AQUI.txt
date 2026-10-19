@@ -1,0 +1,5 @@
+FOTO PARA: Pasteles individuales
+
+Guarda aquí la foto real cuando la tengas, preferiblemente en JPG o WebP.
+La imagen que aparece de momento en la web es una ilustración provisional.
+Consulta README.md para sustituir la imagen en la tarjeta correspondiente.
