@@ -69,3 +69,17 @@ Las páginas `pages/panaderia.html` y `pages/cafeteria.html` tienen seis tarjeta
 - Cafetería: guarda fotos en `assets/images/cafeteria/`.
 
 Para cambiar una imagen, abre la página correspondiente, busca la tarjeta (por ejemplo `Hogazas` o `Desayunos`) y cambia el `src` de su etiqueta `<img>` por la ruta de tu archivo. Ejemplo: `../assets/images/panaderia/hogazas.jpg`. Actualiza también `alt` para describir la foto. No hace falta tocar el CSS ni el JavaScript. Cada carpeta contiene un `LEEME.txt` con los mismos pasos.
+
+## Cabecera y pie compartidos
+
+La cabecera y el pie comunes se encuentran en `components/header.html` y `components/footer.html`. `assets/js/main.js` los carga en las páginas publicadas con HTTPS. Cada página conserva además una copia de respaldo del encabezado y del pie: si abres el HTML directamente con `file://` y el navegador bloquea `fetch()`, la navegación seguirá visible. Para comprobar la carga de componentes compartidos, usa Cloudflare Pages o un servidor local (por ejemplo, la extensión Live Server de Visual Studio Code).
+
+La cabecera se mantiene visible al desplazarse y el pie contiene únicamente enlaces legales. Las páginas `pages/aviso-legal.html`, `pages/privacidad.html` y `pages/cookies.html` son borradores: deben completarse y revisarse con información real antes de publicar.
+
+## Configurar datos de contacto
+
+En `pages/visitanos.html`, actualiza el teléfono y correo cuando estén confirmados. Para un enlace telefónico utiliza `tel:+34XXXXXXXXX`; para correo, `mailto:correo@ejemplo.es`; y para WhatsApp, el enlace `https://wa.me/34XXXXXXXXX` con el número internacional sin espacios ni símbolos. Sustituye todos los marcadores por datos reales antes de publicar; no uses datos de ejemplo como si fueran reales.
+
+## Rama de trabajo y previsualización
+
+Los cambios se preparan en la rama `fix/shared-header-footer-contact`, sin modificar directamente `main`. Si Cloudflare Pages está conectado al repositorio, habilita las vistas previas de ramas en **Settings → Builds → Branch control** y abre el despliegue de esta rama en **Deployments** para obtener su URL HTTPS de previsualización.
