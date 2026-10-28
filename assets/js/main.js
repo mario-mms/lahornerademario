@@ -40,12 +40,10 @@ async function loadSharedComponents() {
     headerTemplate.innerHTML = headerMarkup.replaceAll("{{BASE}}", siteBase).trim();
     footerTemplate.innerHTML = footerMarkup.replaceAll("{{BASE}}", siteBase).trim();
 
-    const oldAnnouncement = document.querySelector(".announcement");
-    const oldHeader = document.querySelector(".site-header");
+    const oldHeaderShell = document.querySelector(".site-header-shell");
     const oldFooter = document.querySelector(".site-footer");
-    if (oldAnnouncement && oldHeader && oldFooter) {
-      oldHeader.remove();
-      oldAnnouncement.replaceWith(headerTemplate.content);
+    if (oldHeaderShell && oldFooter) {
+      oldHeaderShell.replaceWith(headerTemplate.content);
       oldFooter.replaceWith(footerTemplate.content);
     }
   } catch (error) {
